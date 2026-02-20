@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apply for Admission – MPTC Vadakara</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="admission.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo-block">
+        <div class="logo-emblem">🎓</div>
+        <div class="logo-text">
+          <span class="college-name">MPTC Vadakara</span>
+          <span class="college-sub">Model Polytechnic Technical College</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">About</a>
+        <a href="#" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">Academic Year 2026–27</p>
+      <h1 class="hero-title">Apply for<br/><em>Admission</em></h1>
+      <p class="hero-desc">Begin your journey towards a bright technical career at MPTC Vadakara. Fill out the form below and our admissions team will get in touch with you.</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">1000+</span><span class="stat-label">Alumni</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Programmes</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Years Legacy</span></div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="image-card">
+        <div class="image-placeholder">
+          <span>📚</span>
+          <p>Technical Excellence</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section class="form-section">
+    <div class="form-container">
+
+      <!-- Progress Bar -->
+      <div class="progress-bar-wrapper">
+        <div class="step active" data-step="1">
+          <div class="step-circle">1</div>
+          <span>Personal Info</span>
+        </div>
+        <div class="step-line"></div>
+        <div class="step" data-step="2">
+          <div class="step-circle">2</div>
+          <span>Academic Details</span>
+        </div>
+        <div class="step-line"></div>
+        <div class="step" data-step="3">
+          <div class="step-circle">3</div>
+          <span>Course Selection</span>
+        </div>
+        <div class="step-line"></div>
+        <div class="step" data-step="4">
+          <div class="step-circle">4</div>
+          <span>Declaration</span>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <!-- Step 1: Personal Info -->
+        <div class="form-step active" id="step-1">
+          <h2 class="step-title">Personal Information</h2>
+          <p class="step-desc">Please fill in your personal details accurately.</p>
+
+          <div class="field-grid two-col">
+            <div class="field-group">
+              <label>First Name <span class="req">*</span></label>
+              <input type="text" placeholder="e.g. Rahul"/>
+            </div>
+            <div class="field-group">
+              <label>Last Name <span class="req">*</span></label>
+              <input type="text" placeholder="e.g. Krishnan"/>
+            </div>
+          </div>
+
+          <div class="field-grid two-col">
+            <div class="field-group">
+              <label>Date of Birth <span class="req">*</span></label>
+              <input type="date"/>
+            </div>
+            <div class="field-group">
+              <label>Gender <span class="req">*</span></label>
+              <select>
+                <option value="">Select gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Transgender</option>
+                <option>Prefer not to say</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field-grid two-col">
+            <div class="field-group">
+              <label>Mobile Number <span class="req">*</span></label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX"/>
+            </div>
+            <div class="field-group">
+              <label>Email Address <span class="req">*</span></label>
+              <input type="email" placeholder="you@example.com"/>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label>Permanent Address <span class="req">*</span></label>
+            <textarea rows="3" placeholder="House No., Street, Village/Town, District, State, PIN"></textarea>
+          </div>
+
+          <div class="field-grid two-col">
+            <div class="field-group">
+              <label>Religion</label>
+              <select>
+                <option value="">Select</option>
+                <option>Hindu</option>
+                <option>Muslim</option>
+                <option>Christian</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label>Category <span class="req">*</span></label>
+              <select>
+                <option value="">Select category</option>
+                <option>General</option>
+                <option>OBC</option>
+                <option>SC</option>
+                <option>ST</option>
+                <option>EWS</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field-grid two-col">
+            <div class="field-group">
+              <label>Aadhar Number <span class="req">*</span></label>
+              <input type="text" placeholder="XXXX XXXX XXXX" maxlength="14"/>
+            </div>
+            <div class="field-group">
+              <label>Nationality <span class="req">*</span></label>
+              <input type="text" value="Indian"/>
+            </div>
+          </div>
+
+          <div class="btn-row right">
+            <button class="btn-next" onclick="goToStep(2)">Next Step <span>→</span></button>
+          </div>
+        </div>
+
+        <!-- Step 2: Academic Details -->
+        <div class="form-step" id="step-2">
+          <h2 class="step-title">Academic Details</h2>
+          <p class="step-desc">Provide your educational qualification information.</p>
+
+          <div class="field-group">
+            <label>Qualifying Examination <span class="req">*</span></label>
+            <select>
+              <option value="">Select</option>
+              <option>SSLC / 10th</option>
+              <option>Plus Two / 12th</option>
+              <option>ITI Certificate</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="field-grid two-col">
+            <div class="field-group">
+              <label>School / Institution Name <span class="req">*</span></label>
+              <input type="text" placeholder="e.g. Govt. HSS Vadakara"/>
+            </div>
+            <div class="field-group">
+              <label>Board / University <span class="req">*</span></label>
+              <input type="text" placeholder="e.g. Kerala Board of Public Examinations"/>
+            </div>
+          </div>
+
+          <div class="field-grid two-col">
+            <div class="field-group">
+              <label>Year of Passing <span class="req">*</span></label>
+              <select>
+                <option value="">Select year</option>
+                <option>2024</option><option>2023</option><option>2022</option>
+                <option>2021</option><option>2020</option><option>2019</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label>Marks Obtained <span class="req">*</span></label>
+              <input type="text" placeholder="e.g. 450 / 500"/>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label>Percentage / Grade <span class="req">*</span></label>
+            <input type="text" placeholder="e.g. 90% or A Grade"/>
+          </div>
+
+          <div class="field-group">
+            <label>Subjects Studied <span class="req">*</span></label>
+            <textarea rows="2" placeholder="e.g. Mathematics, Physics, Chemistry, English, Malayalam"></textarea>
+          </div>
+
+          <div class="field-group">
+            <label>Any other qualification (optional)</label>
+            <input type="text" placeholder="e.g. ITI in Electronics"/>
+          </div>
+
+          <div class="btn-row space-between">
+            <button class="btn-back" onclick="goToStep(1)"><span>←</span> Back</button>
+            <button class="btn-next" onclick="goToStep(3)">Next Step <span>→</span></button>
+          </div>
+        </div>
+
+        <!-- Step 3: Course Selection -->
+        <div class="form-step" id="step-3">
+          <h2 class="step-title">Course Selection</h2>
+          <p class="step-desc">Select your preferred course and provide additional details.</p>
+
+          <div class="field-group">
+            <label>Preferred Course (1st Choice) <span class="req">*</span></label>
+            <select>
+              <option value="">Select a course</option>
+              <option>Diploma in Mechanical Engineering</option>
+              <option>Diploma in Civil Engineering</option>
+              <option>Diploma in Electrical Engineering</option>
+              <option>Diploma in Electronics Engineering</option>
+              <option>Diploma in Computer Science</option>
+              <option>Diploma in Information Technology</option>
+              <option>Diploma in Automobile Engineering</option>
+              <option>Diploma in Refrigeration & Air Conditioning</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label>Preferred Course (2nd Choice)</label>
+            <select>
+              <option value="">Select a course</option>
+              <option>Diploma in Mechanical Engineering</option>
+              <option>Diploma in Civil Engineering</option>
+              <option>Diploma in Electrical Engineering</option>
+              <option>Diploma in Electronics Engineering</option>
+              <option>Diploma in Computer Science</option>
+              <option>Diploma in Information Technology</option>
+              <option>Diploma in Automobile Engineering</option>
+              <option>Diploma in Refrigeration & Air Conditioning</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label>Mode of Admission <span class="req">*</span></label>
+            <div class="radio-group">
+              <label class="radio-option"><input type="radio" name="mode" value="merit"/> Merit Basis</label>
+              <label class="radio-option"><input type="radio" name="mode" value="lateral"/> Lateral Entry</label>
+              <label class="radio-option"><input type="radio" name="mode" value="nri"/> NRI Quota</label>
+              <label class="radio-option"><input type="radio" name="mode" value="management"/> Management Quota</label>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label>How did you hear about us?</label>
+            <select>
+              <option value="">Select</option>
+              <option>School / Teacher</option>
+              <option>Friends / Family</option>
+              <option>Social Media</option>
+              <option>Newspaper</option>
+              <option>Website</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="upload-area">
+            <h3 class="upload-title">Document Upload</h3>
+            <div class="upload-grid">
+              <div class="upload-item">
+                <label>SSLC / Mark Sheet <span class="req">*</span></label>
+                <div class="upload-box">
+                  <span class="upload-icon">📄</span>
+                  <p>Click to upload or drag & drop</p>
+                  <small>PDF / JPG (max 2MB)</small>
+                  <input type="file" accept=".pdf,.jpg,.png"/>
+                </div>
+              </div>
+              <div class="upload-item">
+                <label>Transfer Certificate <span class="req">*</span></label>
+                <div class="upload-box">
+                  <span class="upload-icon">📄</span>
+                  <p>Click to upload or drag & drop</p>
+                  <small>PDF / JPG (max 2MB)</small>
+                  <input type="file" accept=".pdf,.jpg,.png"/>
+                </div>
+              </div>
+              <div class="upload-item">
+                <label>Passport Photo <span class="req">*</span></label>
+                <div class="upload-box">
+                  <span class="upload-icon">🖼️</span>
+                  <p>Click to upload or drag & drop</p>
+                  <small>JPG / PNG (max 1MB)</small>
+                  <input type="file" accept=".jpg,.png"/>
+                </div>
+              </div>
+              <div class="upload-item">
+                <label>Community / Caste Certificate</label>
+                <div class="upload-box">
+                  <span class="upload-icon">📄</span>
+                  <p>Click to upload or drag & drop</p>
+                  <small>PDF / JPG (max 2MB)</small>
+                  <input type="file" accept=".pdf,.jpg,.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-row space-between">
+            <button class="btn-back" onclick="goToStep(2)"><span>←</span> Back</button>
+            <button class="btn-next" onclick="goToStep(4)">Next Step <span>→</span></button>
+          </div>
+        </div>
+
+        <!-- Step 4: Declaration -->
+        <div class="form-step" id="step-4">
+          <h2 class="step-title">Declaration & Submit</h2>
+          <p class="step-desc">Review and confirm your application before submitting.</p>
+
+          <div class="declaration-box">
+            <p>I, the undersigned, hereby declare that all the information provided in this application form is true, correct, and complete to the best of my knowledge and belief. I understand that in case any information is found to be false or incorrect at any point in time, my admission is liable to be cancelled without prior notice. I agree to abide by the rules and regulations of <strong>MPTC Vadakara</strong>.</p>
+          </div>
+
+          <div class="field-group mt-20">
+            <label class="checkbox-label">
+              <input type="checkbox" id="terms-check" onchange="toggleSubmit()"/>
+              <span>I agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a> of MPTC Vadakara.</span>
+            </label>
+          </div>
+
+          <div class="field-group">
+            <label class="checkbox-label">
+              <input type="checkbox"/>
+              <span>I confirm that all documents submitted are genuine and I have not tampered with any academic records.</span>
+            </label>
+          </div>
+
+          <div class="field-group">
+            <label class="checkbox-label">
+              <input type="checkbox"/>
+              <span>I consent to receive notifications via SMS / Email regarding my admission status.</span>
+            </label>
+          </div>
+
+          <div class="field-grid two-col mt-20">
+            <div class="field-group">
+              <label>Applicant's Signature (Full Name) <span class="req">*</span></label>
+              <input type="text" placeholder="Sign here (type your full name)"/>
+            </div>
+            <div class="field-group">
+              <label>Date <span class="req">*</span></label>
+              <input type="date"/>
+            </div>
+          </div>
+
+          <div class="field-grid two-col">
+            <div class="field-group">
+              <label>Guardian / Parent Name <span class="req">*</span></label>
+              <input type="text" placeholder="Father's / Mother's full name"/>
+            </div>
+            <div class="field-group">
+              <label>Guardian Contact <span class="req">*</span></label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX"/>
+            </div>
+          </div>
+
+          <div class="btn-row space-between">
+            <button class="btn-back" onclick="goToStep(3)"><span>←</span> Back</button>
+            <button class="btn-submit" id="submit-btn" disabled onclick="submitForm()">Submit Application 🎓</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Modal -->
+  <div class="modal-overlay" id="success-modal">
+    <div class="modal-card">
+      <div class="modal-icon">✅</div>
+      <h2>Application Submitted!</h2>
+      <p>Your application has been received successfully. You will receive a confirmation email within 2 working days. Our admissions team will contact you soon.</p>
+      <p class="app-ref">Application Ref: <strong id="ref-no"></strong></p>
+      <button class="btn-next" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p><strong>MPTC Vadakara</strong> – Malabar Polytechnic Technical College, Vadakara, Kozhikode, Kerala – 673101</p>
+      <p>📞 +91 0496-252XXXX &nbsp;|&nbsp; ✉️ admissions@mptcvadakara.edu.in</p>
+      <p class="footer-copy">© 2024 MPTC Vadakara. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function goToStep(stepNum) {
+      document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.step').forEach((s, i) => {
+        s.classList.remove('active', 'completed');
+        if (i + 1 < stepNum) s.classList.add('completed');
+        if (i + 1 === stepNum) s.classList.add('active');
+      });
+      document.getElementById('step-' + stepNum).classList.add('active');
+      document.querySelector('.form-card').scrollIntoView({behavior: 'smooth'});
+    }
+
+    function toggleSubmit() {
+      const cb = document.getElementById('terms-check');
+      document.getElementById('submit-btn').disabled = !cb.checked;
+    }
+
+    function submitForm() {
+      const ref = 'MPTC-' + new Date().getFullYear() + '-' + Math.floor(10000 + Math.random() * 90000);
+      document.getElementById('ref-no').textContent = ref;
+      document.getElementById('success-modal').classList.add('show');
+    }
+
+    function closeModal() {
+      document.getElementById('success-modal').classList.remove('show');
+    }
+  </script>
+</body>
+</html>
